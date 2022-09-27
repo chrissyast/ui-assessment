@@ -2,7 +2,7 @@ import './app.css'
 import AccountOverview from './account-overview'
 import React from 'react'
 
-function App() {
+function App () {
   const accountOverviewStub = {
     supportContact: {
       name: 'John Smith',
@@ -12,16 +12,15 @@ function App() {
       uploads: 8,
       successfulUploads: 3,
       linesAttempted: 20,
-      linesSaved: 4,
+      linesSaved: 4
     }
   }
-
 
   return (
     <div className="App">
       <AccountOverview data={accountOverviewStub}/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

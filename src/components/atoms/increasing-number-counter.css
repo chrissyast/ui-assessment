@@ -1,5 +1,17 @@
 .count {
-    color: rgb(34, 171, 85);
     font-size: calc(10px + 2vmin);
     font-weight: bolder;
+    transition:cubic-bezier(0.6, -0.28, 0.735, 0.045) 200ms color
+}
+
+.count.success {
+    color: rgb(34, 171, 85);
+}
+
+.count.warning {
+    color: orange
+}
+
+.count.failure {
+    color: rgb(255,0,0)
 }
